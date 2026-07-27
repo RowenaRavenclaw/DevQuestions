@@ -7,17 +7,13 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\DevQuestions.Application\DevQuestions.Application.csproj" />
       <ProjectReference Include="..\DevQuestions.Contracts\DevQuestions.Contracts.csproj" />
       <ProjectReference Include="..\DevQuestions.Domain\DevQuestions.Domain.csproj" />
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.3.11" />
-      <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.556">
-        <PrivateAssets>all</PrivateAssets>
-        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-      </PackageReference>
+      <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.1.1" />
+      <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="11.0.0-preview.6.26359.118" />
     </ItemGroup>
 
 </Project>
